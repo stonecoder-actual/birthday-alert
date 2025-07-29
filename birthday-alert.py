@@ -13,7 +13,7 @@ if not SLACK_WEBHOOK_URL:
     raise Exception("PERSONAL_SLACK_WEBHOOK_URL is not set in the .env file")
 
 # Path to the CSV file containing birthdays
-CSV_FILE_PATH = "birthdays.csv"
+CSV_FILE_PATH = "rolladex.csv"
 
 # Function to send a Slack message
 def send_slack_message(message):
