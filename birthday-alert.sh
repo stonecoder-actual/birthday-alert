@@ -3,6 +3,9 @@
 # Navigate to the project directory
 cd /home/sam/birthday-alert
 
+# Ensure scripts are executable
+chmod +x birthday-alert.py
+chmod +x birthday-alert.sh
 
 # Check if the virtual environment exists, if not create it
 if [ ! -d "venv" ]; then
