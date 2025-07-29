@@ -7,7 +7,7 @@ cd /home/sam/birthday-alert
 source venv/bin/activate
 
 # Install required packages
-pip install -r requirements.txt
+pip install -r requirments.txt
 
 # Run the Python script
 python birthday-alert.py
